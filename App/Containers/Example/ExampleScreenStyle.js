@@ -3,13 +3,13 @@ import { Helpers, Metrics, Fonts, Colors } from 'App/Theme'
 
 export default StyleSheet.create({
   error: {
-    ...Fonts.normal,
+    ...Fonts.h3,
     color: Colors.error,
     marginBottom: Metrics.tiny,
     textAlign: 'center',
   },
   instructions: {
-    ...Fonts.normal,
+    ...Fonts.regular,
     fontStyle: 'italic',
     marginBottom: Metrics.tiny,
     textAlign: 'center',
@@ -20,12 +20,12 @@ export default StyleSheet.create({
     marginBottom: 25,
   },
   result: {
-    ...Fonts.normal,
+    ...Fonts.h3,
     marginBottom: Metrics.tiny,
     textAlign: 'center',
   },
   text: {
-    ...Fonts.normal,
+    ...Fonts.regular,
     marginBottom: Metrics.tiny,
     textAlign: 'center',
   },

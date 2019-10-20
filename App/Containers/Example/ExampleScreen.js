@@ -27,12 +27,7 @@ class ExampleScreen extends React.Component {
   render() {
     return (
       <View
-        style={[
-          Helpers.fill,
-          Helpers.rowMain,
-          Metrics.mediumHorizontalMargin,
-          Metrics.mediumVerticalMargin,
-        ]}
+        style={[Helpers.fillColMain, Metrics.mediumHorizontalMargin, Metrics.mediumVerticalMargin]}
       >
         {this.props.userIsLoading ? (
           <ActivityIndicator size="large" color="#0000ff" />

@@ -20,7 +20,13 @@ export default StyleSheet.create({
   h3: {
     fontSize: size.h3,
   },
-  normal: {
+  regular: {
     fontSize: size.regular,
+  },
+  medium: {
+    fontSize: size.medium,
+  },
+  small: {
+    fontSize: size.small,
   },
 })
