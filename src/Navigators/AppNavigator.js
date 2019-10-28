@@ -1,7 +1,7 @@
 import { createAppContainer, createStackNavigator } from 'react-navigation'
 
-import ExampleScreen from 'src/Containers/Example/ExampleScreen'
-import SplashScreen from 'src/Containers/Splash'
+import ExampleScreen from 'src/Containers/Example/Screen'
+import SplashScreen from 'src/Containers/Splash/Screen'
 
 /**
  * The root screen contains the application's navigation.

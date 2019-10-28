@@ -3,7 +3,7 @@ import { Platform, Text, View, Button, ActivityIndicator, Image } from 'react-na
 import { connect } from 'react-redux'
 import ExampleActions from 'src/Stores/Example/Actions'
 import { liveInEurope } from 'src/Stores/Example/Selectors'
-import Style from './ExampleScreenStyle'
+import styles from './Styles'
 import { Images } from 'src/Theme'
 import PropTypes from 'prop-types'
 
@@ -26,25 +26,25 @@ class ExampleScreen extends React.Component {
 
   render() {
     return (
-      <View style={Style.container}>
+      <View style={styles.container}>
         {this.props.userIsLoading ? (
           <ActivityIndicator size="large" color="#0000ff" />
         ) : (
           <View>
-            <View style={Style.logoContainer}>
-              <Image style={Style.logo} source={Images.logo} resizeMode={'contain'} />
+            <View style={styles.logoContainer}>
+              <Image style={styles.logo} source={Images.logo} resizeMode={'contain'} />
             </View>
-            <Text style={Style.text}>To get started, edit App.js</Text>
-            <Text style={Style.instructions}>{instructions}</Text>
+            <Text style={styles.text}>To get started, edit App.js</Text>
+            <Text style={styles.instructions}>{instructions}</Text>
             {this.props.userErrorMessage ? (
-              <Text style={Style.error}>{this.props.userErrorMessage}</Text>
+              <Text style={styles.error}>{this.props.userErrorMessage}</Text>
             ) : (
               <View>
-                <Text style={Style.result}>
+                <Text style={styles.result}>
                   {"I'm a fake user, my name is "}
                   {this.props.user.name}
                 </Text>
-                <Text style={Style.result}>
+                <Text style={styles.result}>
                   {this.props.liveInEurope ? 'I live in Europe !' : "I don't live in Europe."}
                 </Text>
               </View>
