@@ -1,21 +1,13 @@
 import { StyleSheet } from 'react-native'
-import Colors from 'src/Theme/Colors'
-import ApplicationStyles from 'src/Theme/ApplicationStyles'
+import { Colors } from 'src/Theme'
 
 export default StyleSheet.create({
   container: {
-    ...ApplicationStyles.screen.container,
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
     backgroundColor: Colors.primary,
   },
   logo: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
+    backgroundColor: Colors.white,
     height: 70,
     width: 70,
-    backgroundColor: 'white',
   },
 })

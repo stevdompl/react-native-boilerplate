@@ -26,13 +26,24 @@ class ExampleScreen extends React.Component {
 
   render() {
     return (
+<<<<<<< HEAD:src/Containers/Example/Screen.js
       <View style={styles.container}>
+=======
+      <View
+        style={[Helpers.fillColMain, Metrics.mediumHorizontalMargin, Metrics.mediumVerticalMargin]}
+      >
+>>>>>>> b8ddc3dda4cc8c86d0ab81121884a3cdb132e522:App/Containers/Example/ExampleScreen.js
         {this.props.userIsLoading ? (
           <ActivityIndicator size="large" color="#0000ff" />
         ) : (
           <View>
+<<<<<<< HEAD:src/Containers/Example/Screen.js
             <View style={styles.logoContainer}>
               <Image style={styles.logo} source={Images.logo} resizeMode={'contain'} />
+=======
+            <View style={Style.logoContainer}>
+              <Image style={Helpers.fullSize} source={Images.logo} resizeMode={'contain'} />
+>>>>>>> b8ddc3dda4cc8c86d0ab81121884a3cdb132e522:App/Containers/Example/ExampleScreen.js
             </View>
             <Text style={styles.text}>To get started, edit App.js</Text>
             <Text style={styles.instructions}>{instructions}</Text>

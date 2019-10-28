@@ -8,7 +8,7 @@ const size = {
   small: 12,
 }
 
-const style = {
+export default {
   h1: {
     fontSize: size.h1,
   },
@@ -18,12 +18,16 @@ const style = {
   h3: {
     fontSize: size.h3,
   },
-  normal: {
+  input: {
+    fontSize: size.input,
+  },
+  regular: {
     fontSize: size.regular,
   },
-}
-
-export default {
-  size,
-  style,
+  medium: {
+    fontSize: size.medium,
+  },
+  small: {
+    fontSize: size.small,
+  },
 }
