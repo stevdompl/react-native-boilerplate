@@ -5,7 +5,7 @@ import { View } from 'react-native'
 import { connect } from 'react-redux'
 import StartupActions from 'src/Stores/Startup/Actions'
 import PropTypes from 'prop-types'
-import { Helpers } from 'App/Theme'
+import { Helpers } from 'src/Theme'
 
 class RootScreen extends Component {
   componentDidMount() {
