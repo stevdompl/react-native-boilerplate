@@ -16,7 +16,7 @@ Also, make sure you add each configuration variable in each configuration file.
 
 #### Usage
 ```
-import Config from 'App/Config'
+import Config from 'src/Config'
 
 ...
 let uri = Config.API_URL
