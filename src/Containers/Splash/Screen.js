@@ -1,7 +1,7 @@
 import React from 'react'
 import { Text, View } from 'react-native'
-import styles from './SplashScreenStyle'
-import { Helpers } from 'App/Theme'
+import styles from './Styles'
+import { Helpers } from 'src/Theme'
 
 export default class SplashScreen extends React.Component {
   render() {
