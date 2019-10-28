@@ -169,4 +169,7 @@ export default StyleSheet.create({
   textRight: {
     textAlign: 'right',
   },
+  uppercase: {
+    textTransform: 'uppercase',
+  },
 })
