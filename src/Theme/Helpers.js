@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native'
-import { Colors } from 'App/Theme'
+import Colors from './Colors'
 
 export default StyleSheet.create({
   backgroundReset: {
@@ -168,5 +168,8 @@ export default StyleSheet.create({
   },
   textRight: {
     textAlign: 'right',
+  },
+  uppercase: {
+    textTransform: 'uppercase',
   },
 })
